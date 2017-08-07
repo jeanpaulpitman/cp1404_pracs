@@ -21,7 +21,7 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="temp_trash.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/prac_02/temp_trash.py">
                 <provider selected="true" editor-type-id="text-editor">
@@ -46,18 +46,8 @@
       <file leaf-file-name="improved_bill_estimator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prac_01/improved_bill_estimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
+            <state relative-caret-position="646">
               <caret line="44" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_formatting_examples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prac_02/string_formatting_examples.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,18 +66,18 @@
       <file leaf-file-name="long_numbers.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prac_02/long_numbers.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17408">
+            <state relative-caret-position="1162">
               <caret line="1024" column="2" selection-start-line="1024" selection-start-column="2" selection-end-line="1024" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exceptions_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prac_02/exceptions_demo.py">
+      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prac_02/text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="74" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="74" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -113,11 +103,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="password_checker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="password_checker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prac_02/password_checker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pass_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prac_02/pass_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ascii_table.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prac_02/ascii_table.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -168,12 +178,15 @@
         <option value="$PROJECT_DIR$/prac_02/files.py" />
         <option value="$PROJECT_DIR$/prac_02/password_checker.py" />
         <option value="$PROJECT_DIR$/prac_02/temp_trash.py" />
+        <option value="$PROJECT_DIR$/prac_02/text.txt" />
+        <option value="$PROJECT_DIR$/prac_02/pass_2.py" />
+        <option value="$PROJECT_DIR$/prac_02/ascii_table.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="633" />
-    <option name="y" value="278" />
+    <option name="x" value="783" />
+    <option name="y" value="474" />
     <option name="width" value="1669" />
     <option name="height" value="1357" />
   </component>
@@ -202,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,49 +251,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GitHub.appref-ms" />
   </component>
-  <component name="RunManager" selected="Python.password_checker">
-    <configuration default="false" name="capitalist_conrad" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cp1404practicals" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_02/capitalist_conrad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="exceptions_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cp1404practicals" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_02/exceptions_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ascii_table">
     <configuration default="false" name="exceptions_to_complete" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,6 +306,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cp1404practicals" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_02/password_checker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pass_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cp1404practicals" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_02/pass_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ascii_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prac_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cp1404practicals" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prac_02/ascii_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -466,19 +479,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.capitalist_conrad" />
-      <item index="1" class="java.lang.String" itemvalue="Python.exceptions_demo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.exceptions_to_complete" />
-      <item index="3" class="java.lang.String" itemvalue="Python.files" />
-      <item index="4" class="java.lang.String" itemvalue="Python.password_checker" />
+      <item index="0" class="java.lang.String" itemvalue="Python.exceptions_to_complete" />
+      <item index="1" class="java.lang.String" itemvalue="Python.files" />
+      <item index="2" class="java.lang.String" itemvalue="Python.password_checker" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pass_2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ascii_table" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.password_checker" />
-        <item index="1" class="java.lang.String" itemvalue="Python.files" />
-        <item index="2" class="java.lang.String" itemvalue="Python.exceptions_to_complete" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exceptions_demo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.capitalist_conrad" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ascii_table" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pass_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.password_checker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.files" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exceptions_to_complete" />
       </list>
     </recent_temporary>
   </component>
@@ -499,8 +512,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="278" width="1669" height="1357" extended-state="0" />
-    <editor active="true" />
+    <frame x="783" y="474" width="1669" height="1357" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30104232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -556,32 +569,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prac_01/loops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prac_01/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prac_01/sales_bonus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prac_01/shop_calculator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,14 +817,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prac_02/out_file" />
-    <entry file="file://$PROJECT_DIR$/prac_02/exceptions_to_complete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prac_02/exceptions_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -862,18 +841,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prac_02/numbers.txt">
+    <entry file="file://$PROJECT_DIR$/prac_02/temp_trash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prac_02/long_numbers.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17408">
+        <state relative-caret-position="1162">
           <caret line="1024" column="2" selection-start-line="1024" selection-start-column="2" selection-end-line="1024" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_02/numbers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -886,26 +873,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prac_01/improved_bill_estimator.py">
+    <entry file="file://$PROJECT_DIR$/prac_02/pass_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prac_02/temp_trash.py">
+    <entry file="file://$PROJECT_DIR$/prac_02/text.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_02/exceptions_to_complete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prac_02/password_checker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_01/improved_bill_estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac_02/ascii_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
           <folding />
         </state>
       </provider>
