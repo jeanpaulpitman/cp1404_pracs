@@ -4,36 +4,52 @@ Random word generator - based on format of words
 
 Another way to get just consonants would be to use string.ascii_lowercase
 (all letters) and remove the vowels.
+
+Refactored to include used defined word sequence with error checking
 """
 import random
 
-VOWELS = "aeiou"
-CONSONANTS = "bcdfghjklmnpqrstvwxyz"
-CHOICES = "%#abcdefghijklmnopqrstuvwxyz"
+VOWELS = "aeiou".split()
+CONSONANTS = "bcdfghjklmnpqrstvwxyz".split()
+CHOICES = "%#abcdefghijklmnopqrstuvwxyz".split()
+RULES = """Enter the word format using any combination of:
+'%' for random Vowels and # for random Consonants
+ or mix it up with any alphabet characters too
+ EG:'###%%#ville'"""
 
 
 def main():
-    print("Welcome to JP's Random word generator 9001")
-    print("Enter the word length, we do the rest")
-    word_length = int(input("Word length: "))
-    word_format = get_random_format(word_length)
-    word = ""
-    for kind in word_format:
-        if kind == "#":
-            word += random.choice(CONSONANTS)
-        elif kind == "%":
-            word += random.choice(VOWELS)
+    print("Welcome to JP's Random word generator 9002")
+    print(RULES)
+    valid_format = False
+    while not valid_format:
+        try:
+            word_format = input("Format: ").lower()
+            if is_valid_format(word_format):
+                word = return_generated_word(word_format)
+                print(word)
+            else:
+                return False
+        except ValueError:
+            print("That is not a valid character, try again")
+
+
+def is_valid_format(word_format):
+    for character in word_format:
+        if character not in CHOICES:
+            return False
+    return True
+
+
+def return_generated_word(word_format):
+    generated_word = ""
+    for character in word_format:
+        if character == "#":
+            generated_word += random.choice(CONSONANTS)
+        elif character == "%":
+            generated_word += random.choice(VOWELS)
         else:
-            word += kind
-
-    print(word)
-
-
-def get_random_format(word_length):
-    random_format = ""
-    for i in range(word_length):
-        random_format += random.choice(CHOICES)
-    return random_format
-
+            generated_word += character
+    return generated_word
 
 main()
