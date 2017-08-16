@@ -1,13 +1,14 @@
 """
 CP1404/CP5632 - Practical
-GPS (Gopher Population Simulator).
+GPS (Gopher Population Simulator)
 Starting population 1000
-each year population increases randomly by 10% - 20%
-each year population decreases randomly by 5% - 25%
+Births each year increase population randomly by 10% - 20%
+Deaths each year decrease population randomly by 5% - 25%
 Population is tracked for 10 years
+Output to match prac example
 """
 import random
-DURATION = 10
+DURATION = 10  # 10 Years
 MAX_BIRTHS = 0.2  # 20%
 MIN_BIRTHS = 0.1  # 10%
 MAX_DEATHS = 0.25  # 25%
@@ -22,8 +23,8 @@ def main():
     print("Starting population: {}".format(INITIAL_POP))
 
     for i in range(DURATION):
-        pop_increase = population * random.uniform(MIN_BIRTHS, MAX_BIRTHS)
-        pop_decrease = population * random.uniform(MIN_DEATHS, MAX_DEATHS)
+        pop_increase = return_population_change(population, MIN_BIRTHS, MAX_BIRTHS)
+        pop_decrease = return_population_change(population, MIN_DEATHS, MAX_DEATHS)
         population = population + pop_increase - pop_decrease
         print("""Year {}
 ****
@@ -31,5 +32,11 @@ def main():
 Population: {:.0f}
 
 """.format(i+1, pop_increase, pop_decrease, population))
+
+
+def return_population_change(population, min_range, max_range):
+    population_change = population * random.uniform(min_range, max_range)
+    return population_change
+
 
 main()
