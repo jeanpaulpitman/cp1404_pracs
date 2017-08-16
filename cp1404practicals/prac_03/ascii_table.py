@@ -26,4 +26,5 @@ def get_valid_ascii_int():
         except ValueError:
             print("That is not a number, Please choose a number between {} and {}:".format(ASCII_MIN, ASCII_MAX))
 
+
 main()
