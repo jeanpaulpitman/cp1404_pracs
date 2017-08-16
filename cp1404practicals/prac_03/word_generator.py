@@ -9,9 +9,9 @@ Refactored to include used defined word sequence with error checking
 """
 import random
 
-VOWELS = "aeiou".split()
-CONSONANTS = "bcdfghjklmnpqrstvwxyz".split()
-CHOICES = "%#abcdefghijklmnopqrstuvwxyz".split()
+VOWELS = "aeiou"
+CONSONANTS = "bcdfghjklmnpqrstvwxyz"
+CHOICES = "%#abcdefghijklmnopqrstuvwxyz"
 RULES = """Enter the word format using any combination of:
 '%' for random Vowels and # for random Consonants
  or mix it up with any alphabet characters too
@@ -26,9 +26,10 @@ def main():
         try:
             word_format = input("Format: ").lower()
             if is_valid_format(word_format):
-                word = return_generated_word(word_format)
-                print(word)
+                print(return_generated_word(word_format))
+                return True
             else:
+                print("Invalid format, try again")
                 return False
         except ValueError:
             print("That is not a valid character, try again")
