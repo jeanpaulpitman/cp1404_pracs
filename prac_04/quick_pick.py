@@ -29,6 +29,7 @@ def main():
 
 
 def generate_quick_picks(number_of_quick_picks):
+    """Print out 6 random numbers with no duplicates, smallest to biggest."""
     for i in range(number_of_quick_picks):
         used_numbers = []
         for j in range(NUMBERS_IN_QUICK_PICK):

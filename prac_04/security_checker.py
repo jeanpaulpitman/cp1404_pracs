@@ -7,7 +7,6 @@ and informs user if access granted or denied.
 
 
 def main():
-    """Checks if username is valid."""
     usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye',
                  'swei45''BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState',
                  'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
@@ -19,6 +18,7 @@ def main():
 
 
 def is_valid_user_name(usernames, user_name):
+    """Checks if valid username."""
     if user_name in usernames:
         return True
     else:
