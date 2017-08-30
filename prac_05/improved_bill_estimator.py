@@ -5,12 +5,12 @@ refactor to include a dictionary for tariffs.
 add three additional tariffs.
 """
 
-VALID_TARIFFS = {11: 0.244618, 31: 0.136928, 44: 0.444444, 47: 0.4747474, 69: 0.696969}
+VALID_TARIFFS_MAP = {11: 0.244618, 31: 0.136928, 44: 0.444444, 47: 0.4747474, 69: 0.696969}
 
 
 def main():
     print("Welcome to bill estimator'o'matic 9003 bot, lets estimate your power bill n stuff")
-    tariffs = {str(tariff) for tariff in VALID_TARIFFS}
+    tariffs = {str(tariff) for tariff in VALID_TARIFFS_MAP}
     tariff = get_valid_tariff_int(tariffs)
     used_kwh = get_valid_daily_usage_float()
     billing_days = get_valid_days_int()
@@ -19,7 +19,7 @@ def main():
 
 
 def estimate_bill(tariff, used_kwh, billing_days):
-    daily_price = VALID_TARIFFS[tariff] * used_kwh
+    daily_price = VALID_TARIFFS_MAP[tariff] * used_kwh
     bill_estimate = daily_price * billing_days
     return bill_estimate
 
@@ -30,7 +30,7 @@ def get_valid_tariff_int(tariffs):
     while not valid_input:
         try:
             selected_number = int(input('Enter your Tariff? {}:'.format(tariffs_text)))
-            if selected_number not in VALID_TARIFFS.keys():
+            if selected_number not in VALID_TARIFFS_MAP.keys():
                 print("That is not a valid Tariff. Please choose from: {}.".format(tariffs_text))
             else:
                 return selected_number
