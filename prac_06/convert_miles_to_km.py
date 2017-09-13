@@ -15,7 +15,7 @@ class ConvertMilesToKiloApp(App):
     """ SquareNumberApp is a Kivy App for squaring a number """
     def build(self):
         """ build the Kivy app from the kv file """
-        Window.size = (2000, 1000)
+        Window.size = (600, 400)
         self.title = "Convert Miles to Kilometers"
         self.root = Builder.load_file('convert_miles_to_km.kv')
         return self.root
