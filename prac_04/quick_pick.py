@@ -10,29 +10,29 @@ import random
 
 MIN_RANGE = 1
 MAX_RANGE = 45
-NUMBERS_IN_QUICK_PICK = 6
+QUICK_PICK_LENGTH = 6
 
 
 def main():
     valid_input = False
     while not valid_input:
         try:
-            number_of_quick_picks = int(input("How many quick picks? "))
-            if number_of_quick_picks <= 0:
+            quick_pick_count = int(input("How many quick picks? "))
+            if quick_pick_count <= 0:
                 print("Please enter a number greater that zero")
             else:
                 valid_input = True
         except ValueError:
             print("That is not a valid integer, try again")
 
-    generate_quick_picks(number_of_quick_picks)
+    display_quick_picks(quick_pick_count)
 
 
-def generate_quick_picks(number_of_quick_picks):
+def display_quick_picks(quick_pick_count):
     """Print out 6 random numbers with no duplicates, smallest to biggest."""
-    for i in range(number_of_quick_picks):
+    for i in range(quick_pick_count):
         used_numbers = []
-        for j in range(NUMBERS_IN_QUICK_PICK):
+        for j in range(QUICK_PICK_LENGTH):
             random_number = random.randint(MIN_RANGE, MAX_RANGE)
             while random_number in used_numbers:
                 random_number = random.randint(MIN_RANGE, MAX_RANGE)
