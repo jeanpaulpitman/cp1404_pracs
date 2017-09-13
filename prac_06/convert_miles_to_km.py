@@ -8,6 +8,8 @@ from kivy.app import App
 from kivy.lang import Builder
 from kivy.core.window import Window
 
+RATE = 0.6213
+
 __author__ = 'Jean-Paul Pitman'
 
 
@@ -18,12 +20,13 @@ class ConvertMilesToKiloApp(App):
         Window.size = (600, 400)
         self.title = "Convert Miles to Kilometers"
         self.root = Builder.load_file('convert_miles_to_km.kv')
+        self.handle_convert(self.root.ids.input_number.text)
         return self.root
 
     def handle_convert(self, value):
         """ handle convert miles to km """
         try:
-            kilometers = int(value) / 0.6213
+            kilometers = int(value) / RATE
             self.root.ids.output_label.text = "{:.2f}".format(kilometers)
         except ValueError:
             self.root.ids.output_label.text = "0.0"
@@ -38,4 +41,5 @@ class ConvertMilesToKiloApp(App):
         self.root.ids.input_number.text = str(new_value)
 
 
-ConvertMilesToKiloApp().run()
+if __name__ == '__main__':
+    ConvertMilesToKiloApp().run()
