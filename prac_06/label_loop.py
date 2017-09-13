@@ -21,7 +21,7 @@ class LabelLoopApp(App):
         Construct main app
         """
         super().__init__(**kwargs)
-        self.names = ("Fred", "Jim", "Bob", "Harry", "Albert")
+        self.names = ["Fred", "Jim", "Bob", "Harry", "Albert"]
 
     def build(self):
         """
