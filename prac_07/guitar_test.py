@@ -1,4 +1,4 @@
-"""CP1404/CP5632 Practical - Programming languages."""
+"""CP1404/CP5632 Practical - Guitar activity, test."""
 from prac_07.guitar import Guitar
 
 
