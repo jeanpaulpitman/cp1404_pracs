@@ -44,8 +44,8 @@ def list_all_guitars(guitars):
             vintage_string = "(Vintage)"
         else:
             vintage_string = ""
-        print("Guitar {}: {:>18} ({}), worth $ {:>10.2f} {}".format(guitar_count, guitar.name, guitar.year,
-                                                                    guitar.cost, vintage_string))
+        print("Guitar {}: {:>18} ({}), worth $ {:>10,.2f} {}".format(guitar_count, guitar.name, guitar.year,
+                                                                     guitar.cost, vintage_string))
         guitar_count += 1
 
 
