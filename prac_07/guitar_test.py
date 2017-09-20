@@ -12,12 +12,12 @@ def main():
     print(guitar2)
     print(guitar3)
 
-    print(guitar1.get_age())
-    print(guitar2.get_age())
-    print(guitar3.get_age())
-    print(guitar1.is_vintage())
-    print(guitar2.is_vintage())
-    print(guitar3.is_vintage())
+    print("Expected 95 got {}".format(guitar1.get_age()))
+    print("Expected 205 got {}".format(guitar2.get_age()))
+    print("Expected 33 got {}".format(guitar3.get_age()))
+    print("Expected True got {}".format(guitar1.is_vintage()))
+    print("Expected True got {}".format(guitar2.is_vintage()))
+    print("Expected False got {}".format(guitar3.is_vintage()))
 
 
 main()
