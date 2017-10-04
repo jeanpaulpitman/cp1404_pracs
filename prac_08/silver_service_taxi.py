@@ -4,7 +4,6 @@ from prac_08.taxi import Taxi
 
 class SilverServiceTaxi(Taxi):
     """Class."""
-    price_per_km = Taxi.price_per_km
     flagfall = 4.5
 
     def __init__(self, name, fuel, fanciness):
