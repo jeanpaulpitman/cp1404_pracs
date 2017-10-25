@@ -26,7 +26,7 @@ def main():
             print(new_name)
 
             # Option 1: rename file to new name - in place
-            # os.rename(filename, new_name)
+            os.rename(filename, new_name)
 
             # Option 2: move file to new place, with new name
             # shutil.move(filename, 'temp/' + new_name)
@@ -43,12 +43,17 @@ def main():
 def get_fixed_filename(filename):
     """Return a 'fixed' version of filename."""
     # First, replace the spaces and .TXT (the easy part)
-    filename = filename.replace(" ", "_").replace(".TXT", ".txt")
+    new_name = filename.replace(" ", "_")
 
-    new_name = ""
     # TODO: step-by-step, consider the problem cases and solve them
+    previous_char =
+    current_char =
+    for char in new_name:
+        if char is_lower:
 
-    return new_name
+    clean_name = new_name
+
+    return clean_name
 
 
 main()
