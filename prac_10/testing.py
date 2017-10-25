@@ -54,12 +54,15 @@ def run_tests():
     # using the value passed in or the default
     # You should test both of these
     test_car = Car(fuel=10)
+    assert test_car.fuel == 10
+    test_car_2 = Car()
+    assert test_car_2.fuel == 0
 
 
 run_tests()
 
 # TODO: 3. Uncomment the following line and run the doctests
-# doctest.testmod()
+doctest.testmod()
 
 # TODO: 4. Fix the failing is_long_word function
 # (don't change the tests, but the function!)
@@ -69,6 +72,21 @@ run_tests()
 # Important: start with a function header and just use pass as the body
 # then add doctests so that:
 # 'hello' -> ''Hello.'
+
+
+def make_sentence(text):
+    """
+    >>> make_sentence("hello")
+    'Hello.'
+    >>> make_sentence("it is an ex parrot")
+    'It is an ex parrot.'
+    """
+    first_letter = str(text[0]).upper()
+    new_sentence = first_letter + text[1:] + "."
+    return new_sentence
+
+
+
 # 'It is an ex parrot.' -> 'It is an ex parrot.'
 # and one more you decide (that's valid!)
 # then write the body of the function so that the tests pass
