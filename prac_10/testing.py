@@ -9,7 +9,15 @@ from prac_07.car import Car
 
 def repeat_string(s, n):
     """Repeat string s, n times, with spaces in between."""
-    return s * n
+    if n == 1:
+        complete_text = s
+        return complete_text
+    else:
+        new_text = []
+        for i in range(n):
+            new_text.append(s)
+        complete_text = ' '.join(new_text)
+    return complete_text
 
 
 def is_long_word(word, length=5):
@@ -22,7 +30,7 @@ def is_long_word(word, length=5):
     >>> is_long_word("Python", 6)
     True
     """
-    return len(word) > length
+    return len(word) >= length
 
 
 def run_tests():
