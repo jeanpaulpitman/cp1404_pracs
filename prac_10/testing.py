@@ -80,9 +80,15 @@ def make_sentence(text):
     'Hello.'
     >>> make_sentence("it is an ex parrot")
     'It is an ex parrot.'
+    >>> make_sentence("welcome to the jungle.")
+    'Welcome to the jungle.'
     """
     first_letter = str(text[0]).upper()
-    new_sentence = first_letter + text[1:] + "."
+    if text[-1] == ".":
+        last_letter = ""
+    else:
+        last_letter = "."
+    new_sentence = first_letter + text[1:] + last_letter
     return new_sentence
 
 
